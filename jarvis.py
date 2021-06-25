@@ -82,7 +82,11 @@ while True:
          query = query.replace("wikipedia","")
          wiki = wikipedia.summary(query,sentences = 2)
          Speak(f"According To Wikipedia : {wiki}")
-         
+
+
+
+
+
      elif 'kunal is mad' in query:
          Speak("  You shut up")
          Speak("  You are mad not my sir")
@@ -229,11 +233,7 @@ while True:
 
 
      elif "temperature" in query:
-         Temp()
-
-     elif 'send message' in query:
-         pywhatkit.sendwhatmsg("+918987510264", "Hello my name is heheheh",20,43)
-
+         Temperature()
 
 
 
