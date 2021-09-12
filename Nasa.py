@@ -60,7 +60,7 @@ def NasaNews(Date):
     Speak(f"Title : {Title}")
     Speak(f"According to Nasa : {Info}")
 
-NasaNews('2020-10-15')
+NasaNews("2017-09-13")
 
 def Astro(start_date,end_date):
 
@@ -88,11 +88,13 @@ def Astro(start_date,end_date):
 
         print(id, name, absolute)
 
+
+
 def MarsMission():
 
     name = 'curiosity'
 
-    date = '2021-07-20'
+    date = '2021-07-31'
 
     Api_ = str(Api_Key)
 
@@ -114,7 +116,7 @@ def MarsMission():
 
             rover_name = rover['name']
 
-            camera_name = camera['name']
+
 
             full_camera_name = camera['full_name']
 
@@ -144,6 +146,8 @@ def MarsMission():
 
     except:
         Speak("Something went wrong")
+
+
 
 
 def MoonMission():
